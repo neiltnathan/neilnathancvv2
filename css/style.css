@@ -941,6 +941,9 @@ li {
 .card-pproject-img {
     width: 115%;
     object-fit: contain;
+    position: absolute;
+    top: 25px;
+    left: 0;
 
 }
 
