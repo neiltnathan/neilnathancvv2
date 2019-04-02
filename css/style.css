@@ -954,6 +954,23 @@ li {
 
 }
 
+.cards p {
+    margin-bottom: 2.0rem;
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    color: var(--body-font-color);
+}
+
+.cards a:link {
+    color: #2cae99;
+
+}
+
+.cards a:hover {
+    color: #229987;
+
+}
+
 
 @media only screen and (max-width: 1200px) {
     .projects {
