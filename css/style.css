@@ -546,6 +546,12 @@ li {
     font-weight: var(--body-font-weight);
 }
 
+.experiences-job-responsibilities-header {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    color: var(--title-font-color);
+}
+
 .experiences-job-intro-text {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
