@@ -16,16 +16,16 @@ html {
     /* --body-font-color: #7f7f7f; */
     /* --body-font-color: #5f5f5f; */
     --body-font-color: #3f3f3f;
-    --body-font-size: 1.7rem;
+    --body-font-size: 1.6rem;
     --body-font-weight: 200;
 
     --title-font-color: #5f5f5f;
     /* --title-font-color: #585858; */
-    --title-font-size: 1.7rem;
+    --title-font-size: 1.6rem;
     --title-font-weight: 400;
 
     --subtitle-font-color: #5f5f5f;
-    --subtitle-font-size: 1.7rem;
+    --subtitle-font-size: 1.6rem;
 
 
     --section-title-font-color: #4a4a4a;
@@ -558,24 +558,92 @@ li {
     font-weight: var(--body-font-weight);
 }
 
+.experiences-job-key-responsibilities {
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+
+
+}
+
+.experiences-job-key-responsibilities li {
+    margin-top: 2px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
 .experiences-job-app-title {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
 }
 
-.experiences-job-key-features-header {
+.experiences-job-app-key-features-header {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
+    margin-top: 1rem;
 }
 
-.experiences-job-key-features {
+.experiences-job-app-key-features {
     line-height: 2.5rem;
     font-size: 1.7rem;
     font-weight: 200;
-    list-style-type: square;
+
+
+
 }
+
+.experiences-job-app-key-features li {
+    margin-top: 2px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.experiences-job-app-description-header {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    color: var(--title-font-color);
+    margin-top: 1rem;
+}
+
+
+
+
+.experiences-job-app-description-text {
+    font-size: var(--body-font-size);
+    color: var(--body-font-color);
+    font-weight: var(--body-font-weight);
+    line-height: 1.5;
+}
+
+
+.experiences-job-app-achievements-header {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    color: var(--title-font-color);
+    margin-top: 1rem;
+}
+
+
+.experiences-job-app-achievements-text {
+    font-size: var(--body-font-size);
+    color: var(--body-font-color);
+    font-weight: var(--body-font-weight);
+    line-height: 2rem;
+}
+
+.experiences-job-app-achievements-text li {
+    margin-top: 5px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+
+
+
 
 .seperator2 {
     border-top: 0.3px solid #e3e7ea;
