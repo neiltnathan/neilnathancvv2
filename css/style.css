@@ -42,7 +42,7 @@ html {
 
     /* --section-header-bg-color-odd:red;
     --section-header-bg-color-even:yellow; */
-
+    --line-height-general: 1.5;
 
 }
 
@@ -349,7 +349,7 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
     padding: 5rem 5rem 5rem 5rem;
     text-align: justify;
 
@@ -463,7 +463,7 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 
 }
 
@@ -534,42 +534,42 @@ li {
 .experiences-job-date-period {
     font-size: var(--subtitle-font-size);
     font-weight: 200;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-position {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-date-period2 {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-responsibilities-header {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-intro-text {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-key-responsibilities {
 
     font-size: 6rem;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 
 }
 
@@ -593,7 +593,7 @@ li {
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
     margin-top: 1rem;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .experiences-job-app-key-features {
@@ -601,7 +601,7 @@ li {
 
     font-size: var(--body-font-size);
     font-weight: 200;
-line-height: 1.5;
+    line-height: var(--line-height-general);
 
 
 }
@@ -627,7 +627,7 @@ line-height: 1.5;
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 
@@ -643,7 +643,7 @@ line-height: 1.5;
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 
 }
 
@@ -858,7 +858,7 @@ line-height: 1.5;
     width: 275px;
     height: 300px;
     margin-right: 2rem;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 
 }
 
@@ -875,7 +875,7 @@ line-height: 1.5;
 }
 
 .awards-container-award-text {
-    line-height: 1.5;
+    line-height: var(--line-height-general);
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
@@ -967,7 +967,7 @@ line-height: 1.5;
 
 .education-schools {
     width: 60vw;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
     margin: 5rem;
 
     display: flex;
@@ -997,7 +997,7 @@ line-height: 1.5;
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 
@@ -1235,7 +1235,7 @@ td:first-child {
 
 .security-certs {
     width: 60vw;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
     margin: 5rem;
     display: flex;
     flex-direction: row;
@@ -1264,7 +1264,7 @@ td:first-child {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 
@@ -1429,7 +1429,7 @@ textarea {
     padding-left: 1rem;
     padding-top: 1rem;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
     border: 1px solid #aaa;
 
     background-color: white;
@@ -1682,7 +1682,7 @@ footer {
 li.nav-footer-item {
     font-size: 1.5rem;
     color: #fff;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .footer-containers {
@@ -1704,7 +1704,7 @@ li.nav-footer-item {
     width: 30vw;
     margin: 3rem 3rem 1rem 3rem;
     text-align: justify;
-    line-height: 1.5;
+    line-height: var(--line-height-general);
 }
 
 .footer-col1 p {
