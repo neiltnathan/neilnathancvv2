@@ -1848,3 +1848,7 @@ ul.social-icons {
     }
 
 }
+
+.text-emphasis {
+    font-weight: 600;
+}
