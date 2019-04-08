@@ -463,8 +463,12 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 2.5rem;
+    /* line-height: 2.5rem; */
 
+}
+
+.skills-content-category-items li {
+    margin-top: 5px;
 }
 
 .skills-content-category {
@@ -526,11 +530,11 @@ li {
 }
 
 .experiences-job {
-    line-height: 3.0rem;
+    line-height: 2.5rem;
 }
 
 .experiences-job-date-period {
-    font-size: 1.7rem;
+    font-size: var(--subtitle-font-size);
     font-weight: 200;
 }
 
@@ -559,8 +563,8 @@ li {
 }
 
 .experiences-job-key-responsibilities {
-    line-height: 2.5rem;
-    font-size: 1.7rem;
+    /* line-height: 2.5rem; */
+    font-size: 6rem;
     font-weight: 200;
 
 
@@ -587,8 +591,9 @@ li {
 }
 
 .experiences-job-app-key-features {
-    line-height: 2.5rem;
-    font-size: 1.7rem;
+    /* line-height: 2.5rem; */
+
+    font-size: var(--body-font-size);
     font-weight: 200;
 
 
@@ -631,11 +636,11 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 2rem;
+    /* line-height: 2.5rem; */
 }
 
 .experiences-job-app-achievements-text li {
-    margin-top: 5px;
+    margin-top: 2px;
     list-style-type: circle;
     list-style-position: inside;
 }
@@ -845,7 +850,7 @@ li {
     width: 275px;
     height: 300px;
     margin-right: 2rem;
-    line-height: 2.5rem;
+    line-height: 2.0rem;
 
 }
 
@@ -862,7 +867,7 @@ li {
 }
 
 .awards-container-award-text {
-    line-height: 2.5rem;
+    line-height: 2.2rem;
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
@@ -954,7 +959,7 @@ li {
 
 .education-schools {
     width: 60vw;
-    line-height: 3.0rem;
+    line-height: 2.2rem;
     margin: 5rem;
 
     display: flex;
@@ -1222,7 +1227,7 @@ td:first-child {
 
 .security-certs {
     width: 60vw;
-    line-height: 2.5rem;
+    line-height: 2.2rem;
     margin: 5rem;
     display: flex;
     flex-direction: row;
