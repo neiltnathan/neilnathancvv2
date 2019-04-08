@@ -349,7 +349,7 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 2.5rem;
+    line-height: 1.5;
     padding: 5rem 5rem 5rem 5rem;
     text-align: justify;
 
@@ -463,12 +463,12 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    /* line-height: 2.5rem; */
+    line-height: 1.5;
 
 }
 
 .skills-content-category-items li {
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .skills-content-category {
@@ -529,49 +529,52 @@ li {
     padding: 5rem 5rem 0rem 5rem;
 }
 
-.experiences-job {
-    line-height: 2.5rem;
-}
+.experiences-job {}
 
 .experiences-job-date-period {
     font-size: var(--subtitle-font-size);
     font-weight: 200;
+    line-height: 1.5;
 }
 
 .experiences-job-position {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
+    line-height: 1.5;
 }
 
 .experiences-job-date-period2 {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
+    line-height: 1.5;
 }
 
 .experiences-job-responsibilities-header {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
+    line-height: 1.5;
 }
 
 .experiences-job-intro-text {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
+    line-height: 1.5;
 }
 
 .experiences-job-key-responsibilities {
-    /* line-height: 2.5rem; */
+
     font-size: 6rem;
     font-weight: 200;
-
+    line-height: 1.5;
 
 }
 
 .experiences-job-key-responsibilities li {
-    margin-top: 2px;
+    /* margin-top: 5px; */
     list-style-type: circle;
     list-style-position: inside;
 }
@@ -581,6 +584,8 @@ li {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
+    margin-top: 2rem;
+
 }
 
 .experiences-job-app-key-features-header {
@@ -588,20 +593,21 @@ li {
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
     margin-top: 1rem;
+    line-height: 1.5;
 }
 
 .experiences-job-app-key-features {
-    /* line-height: 2.5rem; */
+
 
     font-size: var(--body-font-size);
     font-weight: 200;
-
+line-height: 1.5;
 
 
 }
 
 .experiences-job-app-key-features li {
-    margin-top: 2px;
+    /* margin-top: 5px; */
     list-style-type: circle;
     list-style-position: inside;
 }
@@ -611,6 +617,7 @@ li {
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
     margin-top: 1rem;
+    line-height: 1.5;
 }
 
 
@@ -628,7 +635,7 @@ li {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--title-font-color);
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 
@@ -636,11 +643,12 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    /* line-height: 2.5rem; */
+    line-height: 1.5;
+
 }
 
 .experiences-job-app-achievements-text li {
-    margin-top: 2px;
+    /* margin-top: 5px; */
     list-style-type: circle;
     list-style-position: inside;
 }
@@ -850,7 +858,7 @@ li {
     width: 275px;
     height: 300px;
     margin-right: 2rem;
-    line-height: 2.0rem;
+    line-height: 1.5;
 
 }
 
@@ -867,7 +875,7 @@ li {
 }
 
 .awards-container-award-text {
-    line-height: 2.2rem;
+    line-height: 1.5;
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
@@ -959,7 +967,7 @@ li {
 
 .education-schools {
     width: 60vw;
-    line-height: 2.2rem;
+    line-height: 1.5;
     margin: 5rem;
 
     display: flex;
@@ -989,7 +997,7 @@ li {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 2.5rem;
+    line-height: 1.5;
 }
 
 
@@ -1227,7 +1235,7 @@ td:first-child {
 
 .security-certs {
     width: 60vw;
-    line-height: 2.2rem;
+    line-height: 1.5;
     margin: 5rem;
     display: flex;
     flex-direction: row;
@@ -1256,7 +1264,7 @@ td:first-child {
     font-size: var(--body-font-size);
     color: var(--body-font-color);
     font-weight: var(--body-font-weight);
-    line-height: 2.5rem;
+    line-height: 1.5;
 }
 
 
@@ -1372,7 +1380,7 @@ margin: 0 auto;
     font-size: 2.0rem;
     font-weight: 400;
     color: var(--section-title-font-color);
-    line-height: 3rem;
+    line-height: 2;
 }
 
 .contact-us__header-subhead {
@@ -1421,7 +1429,7 @@ textarea {
     padding-left: 1rem;
     padding-top: 1rem;
     font-weight: 200;
-    line-height: 1.5rem;
+    line-height: 1.5;
     border: 1px solid #aaa;
 
     background-color: white;
@@ -1674,7 +1682,7 @@ footer {
 li.nav-footer-item {
     font-size: 1.5rem;
     color: #fff;
-    line-height: 2.5rem;
+    line-height: 1.5;
 }
 
 .footer-containers {
@@ -1696,7 +1704,7 @@ li.nav-footer-item {
     width: 30vw;
     margin: 3rem 3rem 1rem 3rem;
     text-align: justify;
-    line-height: 2.5rem;
+    line-height: 1.5;
 }
 
 .footer-col1 p {
